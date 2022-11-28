@@ -1,0 +1,22 @@
+h3 {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.phone {
+  color: #00771a;
+  font-weight: bold;
+}
+
+.mail {
+  font-size: larger;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 60px auto;
+}
+
+i {
+  padding-bottom: 50px;
+}
