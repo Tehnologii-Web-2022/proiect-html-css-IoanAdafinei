@@ -1,0 +1,52 @@
+a.box {
+  height: 90vh;
+  display: block;
+  color: rgb(36, 36, 36);
+  text-align: center;
+  padding: 45vh 10vw;
+  text-decoration: none;
+}
+
+a.box:hover {
+  background-color: rgb(255, 136, 0);
+  color: aliceblue;
+}
+
+@media screen and (max-width: 1000px) {
+  a.box {
+    height: 53vh;
+    display: block;
+    color: rgb(36, 36, 36);
+    text-align: center;
+    padding: 25vh 10vw;
+    text-decoration: none;
+  }
+}
+
+strong {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+img {
+  padding-left: 15%;
+}
+
+.top {
+  --offset: 50px;
+
+  position: sticky;
+  bottom: 20px;
+  margin-right: 10px;
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
+}

@@ -1,0 +1,27 @@
+.header2 {
+  background-color: rgb(255, 136, 0);
+  color: aliceblue;
+  height: 590px;
+  text-align: center;
+  padding: 200px 10px 0px 10px;
+}
+
+.header3 {
+  background-color: rgb(255, 136, 0);
+  color: aliceblue;
+  height: 410px;
+  text-align: center;
+  padding: 50px 10px 0px 10px;
+}
+
+.header4 {
+  background-color: rgb(255, 136, 0);
+  color: aliceblue;
+  height: 480px;
+  text-align: center;
+  padding: 130px 10px 0px 10px;
+}
+
+.large {
+  font-size: 4rem;
+}

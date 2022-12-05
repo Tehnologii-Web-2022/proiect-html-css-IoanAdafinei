@@ -1,0 +1,103 @@
+html {
+  --bg: rgb(221, 221, 221);
+  --text: #41291a;
+  --accent: #a45053;
+
+  font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  background: var(--bg);
+  color: var(--text);
+  accent-color: var(--accent);
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin-block-end: 0.5rem;
+}
+
+header {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+}
+
+aside li {
+  margin-block-end: 0.5rem;
+}
+
+article.hero {
+  padding-block-end: 1rem;
+}
+
+article + article {
+  padding-block-end: 1rem;
+  margin-block-end: 2rem;
+  border-block-end: 1px dashed;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-block-end: 1rem;
+}
+
+.top {
+  --offset: 50px;
+
+  position: sticky;
+  bottom: 20px;
+  margin-right: 10px;
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.subdiv-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.subdiv-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+strong {
+  font-size: 1rem;
+  font-weight: bold;
+}
